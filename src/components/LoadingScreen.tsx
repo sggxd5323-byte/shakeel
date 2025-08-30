@@ -93,7 +93,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
                   scale: [1, 1.05, 1]
                 }}
                 transition={{ 
-                  duration: 2,
+                  duration: 6,
                   repeat: Infinity,
                   ease: "easeInOut"
                 }}
@@ -105,7 +105,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({
               {/* Glowing Ring */}
               <motion.div
                 animate={{ rotate: 360 }}
-                transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
+                transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
                 className="absolute inset-0 w-32 h-32 mx-auto border-4 border-transparent border-t-white/50 border-r-blue-400/50 rounded-full"
               />
             </div>
