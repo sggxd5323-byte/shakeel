@@ -250,7 +250,7 @@ const AIAssistant: React.FC<AIAssistantProps> = ({ resumeData, isLoggedIn }) => 
                   >
                     🐼
                   </motion.span>
-                </div>
+                </motion.div>
                 <div>
                   <h3 className="font-bold text-lg">Panda AI Assistant</h3>
                   <div className="flex items-center space-x-2">
